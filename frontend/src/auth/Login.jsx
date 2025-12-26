@@ -47,6 +47,7 @@ const Login = () => {
               className="input-field"
               placeholder="name@company.com"
               required
+              autocomplete="username"
             />
           </div>
           <div>
@@ -64,6 +65,7 @@ const Login = () => {
                 className="input-field pr-10"
                 placeholder="••••••••"
                 required
+                autocomplete="current-password"
               />
               <button
                 type="button"

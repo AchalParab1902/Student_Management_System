@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
   // baseURL: 'http://localhost:5002/api',
-  baseURL: 'https://student-management-system-backend-2xly.onrender.com',
+  baseURL: 'https://student-management-system-backend-2xly.onrender.com/api',
   withCredentials: true,
 });
 
